@@ -19,4 +19,4 @@ In order to perform an exchange of the NFT, we needed to find the nonce of the N
 The `exchangeNFT` function was used to perform the exchange. The argument passed to this function is the nonce of the NFT that we want to obtain. To select the correct NFT from our local collection, a `Token` object was created using the collection identifier and the nonce of the NFT. Additionally, a `TokenTransfer` object was used to specify the amount of NFTs being exchanged.
 
 ## Summary
-This process involved querying the smart contract for existing NFTs, randomly selecting attributes for a new NFT, creating it, and performing an exchange with another NFT from the local collection. The project demonstrates the use of smart contract interactions and the creation/exchange of NFTs in a blockchain-based environment.
+This process involved querying the smart contract for existing NFTs, randomly selecting attributes for a new NFT, creating it, and performing an exchange with another NFT from the SC collection. The project demonstrates the use of smart contract interactions and the creation/exchange of NFTs in a blockchain-based environment.
